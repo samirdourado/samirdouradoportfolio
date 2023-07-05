@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home_container {
+    @apply bg-brand5 w-full h-screen flex flex-col justify-center items-center
+}
+
+.presentation {
+    @apply flex-col min-w-[18.75rem] max-w-[90rem]
+    smart:max-w-[19.375rem]
+    tablet:max-w-[580px]
+    desktop:max-w-[860px]
+}
+
+.text_home_header {
+    @apply text-grey0 smart:text-s20 tablet:text-s38 desktop:text-s32
+}
+
+.title_strong {
+    @apply
+    text-grey0 
+    smart:text-s46     
+    tablet:text-s87 
+    desktop:text-s128 
+    font-black tracking-wider
+}
+
+.title_strong_variant {
+    @apply 
+    smart:tracking-[3.9px]
+    tablet:tracking-[6px]
+    desktop:tracking-[10px]
+}
+
+.presentation_footer{
+    @apply w-full flex
+    smart:flex-col justify-between items-center
+    smart:max-w-[310px]
+    smart:h-[145px]    
+    tablet:max-w-[580px]
+    tablet:h-[270px]
+
+    desktop:flex-row-reverse
+    desktop:justify-between
+    desktop:max-w-[860px]
+    desktop:h-[62px]
+    desktop:w-[100%]
+    gap-3
+}
+
+.presentation_text_footer {
+    @apply 
+    text-grey0 
+    smart:text-s17 smart:text-right
+    tablet:text-s32 
+    desktop:text-s24    
+}
+
+.nav_buttons {
+    @apply flex justify-between items-center self-center
+    smart:h-[32px]
+    smart:w-[134px]
+    tablet:h-[60px]
+    tablet:w-[253px]
+    desktop:h-[62px]
+    desktop:w-[150px]    
+}
