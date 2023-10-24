@@ -10,6 +10,22 @@
   @apply absolute bottom-5 inset-x-auto;
 }
 
+:root {
+  --foreground-rgb: 255, 243, 211;
+  --background-start-rgb: 218, 165, 32;
+  --background-end-rgb: 184, 134, 11;
+}
+
+.gradient {
+  /* color: rgb(var(--foreground-rgb)); */
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
