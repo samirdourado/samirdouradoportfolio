@@ -46,8 +46,9 @@ module.exports = {
           s128: '8rem',
         },
         screens: {
-          watch: '0',
-          smart: '163px',
+          // watch: '0',
+          // smart: '163px',
+          smart: '0',
           tablet: '640px',
           desktop: '1280px'
         }
