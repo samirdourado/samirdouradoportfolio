@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply 
+        w-full 
+        min-w-full
+        h-8
+        flex
+        mx-auto
+        bg-brand1
+        relative
+}
+
+.container__left {
+    @apply
+    bg-brand1
+    w-full
+    h-20
+    skew-y-3
+};
+
+.container__right {
+    @apply
+    bg-brand1
+    w-full
+    h-20
+    -skew-y-3
+};

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .home_container {
-    @apply w-full h-screen flex flex-col justify-center items-center min-w-[18.75rem]
+    @apply w-full h-screen flex flex-col justify-center items-center min-w-[18.75rem] bg-brand1
 }
 
 .presentation {

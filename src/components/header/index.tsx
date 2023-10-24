@@ -5,7 +5,7 @@ import "./style.css"
 
 export const Header = () => {
     return (
-        <main className='home_container gradient'>      
+        <main className='home_container'>      
             <section className={'presentation'}>
                 <p className={'text_home_header'}>Olá, me chamo <span className='text-brand3'>Samir Dourado</span>, sou</p>
                 <h2 className={'title_strong title_strong_variant'}>FULLSTACK</h2>
