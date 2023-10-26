@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolio__card__container {
+    @apply
+    max-w-[670px]
+    max-h-[700px]    
+    flex
+    flex-col
+    pl-10
+    pt-5
+    pr-10
+    pb-5
+}
+
+.potfolio__thumb {
+    @apply
+    /* max-w-[580px] */
+    /* max-h-[340px] */
+    object-cover
+    cursor-pointer
+    mb-6
+}
+
+.portfolio__main {
+    @apply
+    w-full
+    flex
+    flex-col
+    gap-4
+}
+
+.portfolio__main > h3 {
+    @apply    
+    text-4xl 
+    not-italic 
+    font-bold 
+    leading-[normal];
+    font-family: Lexend;
+}
+
+.portfolio__main > p {
+    @apply
+    text-grey1
+    text-base 
+    not-italic 
+    font-normal
+    leading-[normal];
+    font-family: Lexend;
+}
+
+.portfolio__footer {
+    @apply
+    w-full
+    max-h-[60px]
+    flex
+    justify-between
+}
+
+.portfolio__footer > a {
+    @apply
+    bg-brand4
+    w-[47%]
+    pt-6
+    pb-6
+    text-grey10
+    text-center 
+    text-sm 
+    not-italic 
+    font-normal 
+    leading-[normal];
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lexend;
+    
+}
