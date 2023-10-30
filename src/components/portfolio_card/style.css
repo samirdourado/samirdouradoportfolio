@@ -4,8 +4,7 @@
 
 .portfolio__card__container {
     @apply
-    max-w-[670px]
-    max-h-[700px]    
+    max-w-[670px]    
     flex
     flex-col
     pl-10
@@ -15,9 +14,8 @@
 }
 
 .potfolio__thumb {
-    @apply
-    /* max-w-[580px] */
-    /* max-h-[340px] */
+    @apply    
+    max-h-[340px]
     object-cover
     cursor-pointer
     mb-6
@@ -46,8 +44,17 @@
     text-base 
     not-italic 
     font-normal
-    leading-[normal];
+    leading-[normal]    
+    line-clamp-3
+    text-ellipsis
+    ;
     font-family: Lexend;
+
+    /* overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; */
 }
 
 .portfolio__footer {

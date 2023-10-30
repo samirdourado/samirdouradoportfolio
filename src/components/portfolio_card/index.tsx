@@ -2,19 +2,31 @@ import Image from "next/image"
 import Link from "next/link"
 import "../../app/globals.css"
 import "./style.css"
+import { portfolioData } from "@/database"
+import { CardPortfolio } from "@/interface/card.interface"
+
+const portfolioReversed = portfolioData.slice(0).reverse().map(element => { return element })
 
 export const PortfolioCard = () => {
     return (
-        <li className={"portfolio__card__container"}>
-            <Image alt="name" src={"/images-portfolio/hamburgueria2.png"} width={580} height={340} className={"potfolio__thumb"}/>
-            <section className={"portfolio__main"}>
-                <h3>Hamburgueria</h3>
-                <p>Projeto front-end feito com react com sistema de totem de hamburgueria contendo cadastro e login,onde pode comprar lanches e bebidas, pesquisa por produto ou categoria, carrinho de compras com display de quantidade e cálculo automático de valores.</p>
-                <div className={"portfolio__footer"}>
-                    <Link href={"https://hamburgueria-v2-samirdourado.vercel.app/home"}>Testar</Link>
-                    <Link href={"https://github.com/samirdourado/hamburgueria-v2-samirdourado"}>Github</Link>
-                </div>
-            </section>
-        </li>
+        portfolioReversed &&
+        
+        portfolioReversed.map((data: CardPortfolio) => (
+            <li className={"portfolio__card__container"} key={data.id}>
+                <Image alt={data.title} src={data.image} width={580} height={340} className={"potfolio__thumb"}/>
+                <section className={"portfolio__main"}>
+                    <h3>{data.title}</h3>
+                    {
+                        data.description.map((content: string, i: any) => (
+                            <p key={i}>{content}</p>
+                        ))
+                    }
+                    <div className={"portfolio__footer"}>
+                        <Link href={(data.url, "_blank")}>Testar</Link>
+                        <Link href={(data.repo, "_blank")}>Github</Link>
+                    </div>
+                </section>
+            </li>
+        ))
     )
 }

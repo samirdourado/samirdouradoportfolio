@@ -6,22 +6,31 @@
     @apply 
         w-full 
         /* min-w-full */
-        /* h-80 */
+        h-full
         mx-auto
-        bg-brand3        
+        bg-brand3
         flex
+        flex-col
         justify-center
-        pt-[160px]
+        items-center
+        pt-[140px]
+}
+
+.portfolio__container > h1 {
+    @apply
+    text-6xl
+    font-bold
+    text-grey1
 }
 
 .portfolio__wrapper {
     @apply
-        w-full
-        max-w-[100rem]
+        w-full        
+        /* max-w-[100rem] */
         bg-brand3
         flex
         flex-wrap
         gap-8
-        justify-between
+        justify-around
         p-2
 }
