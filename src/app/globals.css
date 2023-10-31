@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 * {
-  @apply box-border m-0 p-0;
+  @apply 
+  box-border 
+  m-0 
+  p-0
+  scroll-smooth;
+  /* scroll-behavior: smooth;   */
 }
+
+
 
 .arrow_down {
   @apply absolute bottom-5 inset-x-auto;

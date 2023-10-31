@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comunication__container {
+    @apply 
+    w-full 
+    mx-auto
+    bg-brand3
+    flex
+    flex-col
+    justify-center
+    items-center
+    pt-[100px]
+}
+
+.comunication__container__distort {
+    @apply
+    /* bg-brand1 */
+    bg-whiteFixed
+    w-full    
+    -skew-y-1
+    pt-14
+    pr-4
+    pb-16
+    pl-4
+};
+
+.comunication__container__normalize {
+    @apply
+    /* bg-brand2    */
+    bg-whiteFixed
+    skew-y-1
+    flex
+    smart:flex-col
+    tablet:flex-col
+    desktop:flex-row
+    justify-around
+};

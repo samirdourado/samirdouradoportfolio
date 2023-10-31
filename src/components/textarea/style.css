@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textarea__container {
+    @apply 
+    w-full
+    /* bg-gray-600 */
+    mx-auto    
+    flex
+    flex-col
+    justify-center
+    items-start
+    gap-1
+}
+
+.textarea__label {
+    @apply
+    w-full
+    text-lg
+}
+
+.textarea__input {
+    @apply
+    w-full
+    h-24
+    pl-2
+    border-0
+    rounded-lg
+    border-grey9
+    bg-grey9
+    resize-none
+}
+
+.textarea__error {
+    @apply
+    w-full
+    text-xs
+    text-alert1
+}

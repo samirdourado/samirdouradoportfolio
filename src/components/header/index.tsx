@@ -19,7 +19,7 @@ export const Header = () => {
                     </nav>
                 </div>
             </section>
-            <button className={"arrow_down"}>▼</button>
+            <Link className={"arrow_down"} href={"#portfolio"}>▼</Link>
         </main>
     );
 };

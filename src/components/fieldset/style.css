@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fieldset__container {
+    @apply 
+    w-full
+    /* bg-gray-600 */
+    mx-auto    
+    flex
+    flex-col
+    justify-center
+    items-start
+    gap-1
+}
+
+.fieldset__label {
+    @apply
+    w-full
+    text-lg
+}
+
+.fieldset__input {
+    @apply
+    w-full
+    h-9
+    pl-2
+    border-0
+    rounded-lg
+    border-grey9
+    bg-grey9
+}
+
+.fieldset__error {
+    @apply
+    w-full
+    text-xs
+    text-alert1
+}
