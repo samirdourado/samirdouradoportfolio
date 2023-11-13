@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer__container {
+    @apply 
+        w-full 
+        /* min-w-full */
+        h-full
+        mx-auto 
+        bg-brand1
+        flex
+        flex-row
+        justify-around
+        items-center
+        p-2
+        /* mt-8 */
+        /* pt-[140px] */
+}

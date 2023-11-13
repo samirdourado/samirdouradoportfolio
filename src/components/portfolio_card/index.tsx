@@ -3,7 +3,7 @@ import Link from "next/link"
 import "../../app/globals.css"
 import "./style.css"
 import { portfolioData } from "@/database"
-import { CardPortfolio } from "@/interface/card.interface"
+import { CardPortfolio } from "@/interfaces/card.interface"
 
 const portfolioReversed = portfolioData.slice(0).reverse().map(element => { return element })
 

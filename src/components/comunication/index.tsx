@@ -8,11 +8,8 @@ export const Comunication = () => {
             <div className={"comunication__container__distort"}>
                 <div className={"comunication__container__normalize"}>
                     <Contact/>
-                    
                 </div>
-
             </div>
-
         </section>
     )
 }

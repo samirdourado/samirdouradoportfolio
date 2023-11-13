@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Libs INstaladas:
 React-Icons
+npm i react-hook-form
+npm i @hookform/resolvers
+npm i zod

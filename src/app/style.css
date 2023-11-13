@@ -66,3 +66,11 @@
     desktop:h-[62px]
     desktop:w-[220px]    
 }
+
+.fieldset__error {
+    @apply
+    w-full
+    text-xs
+    text-alert1
+    pl-3
+}

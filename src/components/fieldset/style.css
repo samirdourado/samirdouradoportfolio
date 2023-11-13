@@ -4,9 +4,8 @@
 
 .fieldset__container {
     @apply 
-    w-full
-    /* bg-gray-600 */
-    mx-auto    
+    w-full    
+    mx-auto
     flex
     flex-col
     justify-center
@@ -28,12 +27,8 @@
     border-0
     rounded-lg
     border-grey9
-    bg-grey9
-}
-
-.fieldset__error {
-    @apply
-    w-full
-    text-xs
-    text-alert1
+    bg-grey9   
+    [appearance:textfield]
+    [&::-webkit-outer-spin-button]:appearance-none
+    [&::-webkit-inner-spin-button]:appearance-none
 }
