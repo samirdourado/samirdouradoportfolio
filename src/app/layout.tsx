@@ -1,6 +1,8 @@
 import Link from 'next/link'
 // import './globals.css'
 import { Lexend } from 'next/font/google'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const lexend = Lexend({ subsets: ['latin'] })
 
@@ -17,15 +19,19 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={lexend.className}>        
-        {/* <nav>
-          <ul>
-            <li><Link href={"/"} defaultValue={"Home"}>Home</Link></li>
-            <li><Link href={"/jobs"}>Serviços</Link></li>
-            <li><Link href={"/login"}>Login</Link></li>
-          </ul>
-        </nav>
-        <hr/> */}
         {children}
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          rtl
+          pauseOnFocusLoss
+          draggable={false}
+          pauseOnHover={false}
+          theme="light"
+        />
       </body>
     </html>
   )

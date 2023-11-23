@@ -28,13 +28,40 @@
 };
 
 .comunication__container__normalize {
-    @apply
-    /* bg-brand2    */
+    @apply    
     bg-whiteFixed
     skew-y-1
     flex
-    smart:flex-col
+    flex-col
+    /* smart:flex-col
     tablet:flex-col
-    desktop:flex-row
-    justify-around
+    desktop:flex-col */
+    items-center
+    justify-center
 };
+
+.comunication__container__normalize > h1 {
+    @apply
+    text-6xl
+    font-bold
+    text-grey1
+}
+
+.comunication__main {
+    @apply
+    w-full
+    bg-whiteFixed    
+    mx-auto
+    flex    
+    items-center
+    gap-3
+}
+
+.comunication__main__data {
+    @apply
+    w-full
+    flex
+    flex-col
+    justify-center
+    items-center
+}
