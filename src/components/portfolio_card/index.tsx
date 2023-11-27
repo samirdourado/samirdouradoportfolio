@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import "../../app/globals.css"
-import "./style.css"
 import { portfolioData } from "@/database"
 import { CardPortfolio } from "@/interfaces/card.interface"
+import "../../app/globals.css"
+import "./style.css"
 
 const portfolioReversed = portfolioData.slice(0).reverse().map(element => { return element })
 

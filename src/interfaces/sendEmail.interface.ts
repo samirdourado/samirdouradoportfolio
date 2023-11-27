@@ -3,4 +3,4 @@ export interface SendEmail {
     phone: string;
     email: string;
     text: string;
-};
+}

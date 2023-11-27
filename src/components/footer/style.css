@@ -4,8 +4,7 @@
 
 .footer__container {
     @apply 
-        w-full 
-        /* min-w-full */
+        w-full
         h-full
         mx-auto 
         bg-brand1
@@ -14,6 +13,4 @@
         justify-around
         items-center
         p-2
-        /* mt-8 */
-        /* pt-[140px] */
 }

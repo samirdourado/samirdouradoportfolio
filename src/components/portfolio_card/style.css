@@ -46,15 +46,8 @@
     font-normal
     leading-[normal]    
     line-clamp-3
-    text-ellipsis
-    ;
+    text-ellipsis;
     font-family: Lexend;
-
-    /* overflow: hidden; 
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical; */
 }
 
 .portfolio__footer {

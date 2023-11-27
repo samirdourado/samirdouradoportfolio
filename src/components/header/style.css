@@ -14,7 +14,7 @@
 }
 
 .text_home_header {
-    @apply text-whiteFixed smart:text-s20 tablet:text-s38 desktop:text-s32
+    @apply text-whiteFixed smart:text-s17 tablet:text-s32 desktop:text-s32
 }
 
 .title_strong {

@@ -4,8 +4,7 @@
 
 .textarea__container {
     @apply 
-    w-full
-    /* bg-gray-600 */
+    w-full    
     mx-auto    
     flex
     flex-col

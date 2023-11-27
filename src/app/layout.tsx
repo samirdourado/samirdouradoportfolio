@@ -1,14 +1,12 @@
-import Link from 'next/link'
-// import './globals.css'
-import { Lexend } from 'next/font/google'
-import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { Lexend } from "next/font/google"
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
-const lexend = Lexend({ subsets: ['latin'] })
+const lexend = Lexend({ subsets: ["latin"] })
 
 export const metadata = {
-  title: 'Samir Dourado Portfólio',
-  description: 'Bem vindo ao meu portfólio',
+  title: "Samir Dourado Portfólio",
+  description: "Bem vindo ao meu portfólio",
 }
 
 export default function RootLayout({

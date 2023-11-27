@@ -16,8 +16,7 @@
 }
 
 .comunication__container__distort {
-    @apply
-    /* bg-brand1 */
+    @apply    
     bg-whiteFixed
     w-full    
     -skew-y-1
@@ -33,9 +32,6 @@
     skew-y-1
     flex
     flex-col
-    /* smart:flex-col
-    tablet:flex-col
-    desktop:flex-col */
     items-center
     justify-center
 };
@@ -52,16 +48,85 @@
     w-full
     bg-whiteFixed    
     mx-auto
-    flex    
+    flex
+    smart:flex-col
+    tablet:flex-col
+    desktop:flex-row
     items-center
     gap-3
+}
+
+.others__data__container {
+    @apply 
+    w-full
+    mx-auto
+    h-[474px]
+    min-h-[474px]
+    max-h-[474px]
+    bg-whiteFixed    
+    flex
+    flex-col
+    gap-3
+    justify-between
+    items-center
+    p-2
+}
+
+.comunication__others__data {
+    @apply
+    w-full    
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-1
+    border-4
+    rounded-lg
 }
 
 .comunication__main__data {
     @apply
     w-full
+    min-w-[400px]
+    max-w-[400px]
     flex
     flex-col
     justify-center
     items-center
+    p-2
+    gap-1
+}
+
+.comunication__main__data > p {
+    @apply
+    w-full
+    text-lg
+    flex
+    items-center
+    justify-center
+}
+
+.comunication__sample__data > p {
+    @apply
+    w-full
+    text-lg
+    flex
+    items-center
+    justify-center
+    gap-2    
+}
+
+.comunication__main__data > button {
+    @apply
+    w-full
+    max-w-[400px]
+    bg-brand3
+    flex    
+    justify-center
+    items-center
+    gap-3
+    p-3
+    border-0
+    rounded-lg
+    mt-3
 }

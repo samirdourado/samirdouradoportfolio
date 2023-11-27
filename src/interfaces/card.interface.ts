@@ -6,4 +6,4 @@ export interface CardPortfolio {
     category: string;
     url: string;
     repo: string;
-};
+}

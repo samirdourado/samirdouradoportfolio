@@ -11,7 +11,7 @@ export const Header = () => {
                 <h2 className={"title_strong title_strong_variant"}>FULLSTACK</h2>
                 <h2 className={"title_strong"}>DEVELOPER</h2>        
                 <div className={"presentation_footer"}>
-                    <p className={"presentation_text_footer"}>tenho 38 anos, sou desenvolvedor web fullstack, tenho 1 ano de experiência desenvolvendo diversos projetos.</p>
+                    <p className={"presentation_text_footer"}>tenho 38 anos, sou de São Paulo, role a página e saiba um pouco mais sobre mim.</p>
                     <nav className="nav_buttons">
                     <Link href={"https://github.com/samirdourado"} target="_blank" ><BsGithub size={30} color="white"/></Link>
                     <Link href={"https://www.linkedin.com/in/samirdourado"} target="_blank" ><BsLinkedin size={30} color="white"/></Link>
@@ -21,5 +21,5 @@ export const Header = () => {
             </section>
             <Link className={"arrow_down"} href={"#portfolio"}>▼</Link>
         </main>
-    );
-};
+    )
+}

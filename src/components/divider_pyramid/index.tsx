@@ -8,4 +8,4 @@ export const PyramidDivider = () => {
             <div className={"container__right"}></div>
         </div>
     )
-};
+}
