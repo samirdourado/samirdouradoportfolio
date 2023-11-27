@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 .portfolio__card__container {
-    @apply
-    max-w-[670px]    
+    @apply    
+    max-w-[670px]
+    min-h-[540px]
     flex
-    flex-col
+    flex-col    
     pl-10
     pt-5
     pr-10
@@ -40,6 +41,7 @@
 
 .portfolio__main > p {
     @apply
+    min-h-[60px]
     text-grey1
     text-base 
     not-italic 

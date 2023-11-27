@@ -16,14 +16,10 @@ export const PortfolioCard = () => {
                 <Image alt={data.title} src={data.image} width={580} height={340} className={"potfolio__thumb"}/>
                 <section className={"portfolio__main"}>
                     <h3>{data.title}</h3>
-                    {
-                        data.description.map((content: string, i: any) => (
-                            <p key={i}>{content}</p>
-                        ))
-                    }
-                    <div className={"portfolio__footer"}>
-                        <Link href={(data.url, "_blank")}>Testar</Link>
-                        <Link href={(data.repo, "_blank")}>Github</Link>
+                    <p>{data.description}</p>                    
+                    <div className={"portfolio__footer"}>                        
+                        <Link href={ data.url } target="_blank">Testar</Link>
+                        <Link href={ data.repo } target="_blank">Github</Link>
                     </div>
                 </section>
             </li>
