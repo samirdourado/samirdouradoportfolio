@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { portfolioData } from "@/database"
+import { portfolioData } from "@/database/portfólio.database"
 import { CardPortfolio } from "@/interfaces/card.interface"
 import "../../app/globals.css"
 import "./style.css"
