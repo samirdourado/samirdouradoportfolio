@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolio__container {
+    @apply 
+    w-full
+    h-full
+    mx-auto
+    bg-brand3
+    flex
+    flex-col
+    justify-center
+    items-center
+    pt-[40px]
+}
+
+.portfolio__container > h1 {
+    @apply
+    text-6xl
+    font-bold
+    text-grey1
+}
+
+.portfolio__wrapper {
+    @apply
+    w-full
+    bg-brand3
+    flex
+    flex-wrap
+    gap-8
+    justify-around
+    p-2
+}

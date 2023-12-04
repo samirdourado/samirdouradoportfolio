@@ -3,7 +3,7 @@ import { BsFillFilePdfFill, BsGithub, BsLinkedin } from "react-icons/bs"
 import "../../app/globals.css"
 import "./style.css"
 
-export const Header = () => {
+export const HeaderPage = () => {
     return (
         <main className={"home_container"} id={"home"}>      
             <section className={"presentation"}>
@@ -19,7 +19,7 @@ export const Header = () => {
                     </nav>
                 </div>
             </section>
-            <Link className={"arrow_down"} href={"#portfolio"}>▼</Link>
+            <Link className={"arrow_down"} href={"#about"}>▼</Link>
         </main>
     )
 }

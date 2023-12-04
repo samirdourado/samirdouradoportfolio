@@ -1,19 +1,21 @@
 import "./globals.css"
 import "./style.css"
-import { Header } from "@/components/header"
+import { HeaderPage } from "@/components/headerPage"
 import { PyramidDivider } from "@/components/divider_pyramid"
-import { PortfolioPage } from "@/components/portfolio"
-import { Comunication } from "@/components/comunication"
-import { Footer } from "@/components/footer"
+import { PortfolioPage } from "@/components/portfolioPage"
+import { ComunicationPage } from "@/components/comunicationPage"
+import { FooterPage } from "@/components/footerPage"
+import { AboutMePage } from "@/components/aboutMePage"
 
 export default function Home() {
   return (
     <>
-      <Header/>
+      <HeaderPage/>      
       <PyramidDivider/>
+      <AboutMePage/>
       <PortfolioPage/>
-      <Comunication/>
-      <Footer/>
+      <ComunicationPage/>
+      <FooterPage/>
     </>
   )
 }
