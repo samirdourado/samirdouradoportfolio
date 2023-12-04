@@ -9,7 +9,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 import handleLinkedin from "@/services/profileLinkedin.service"
 import { Button } from "../button/button"
 
-export const Comunication = () => {    
+export const ComunicationPage = () => {    
     
     return (
         <section className={"comunication__container"}>

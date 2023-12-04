@@ -3,7 +3,7 @@ import { FaArrowCircleUp } from "react-icons/fa";
 import "../../app/globals.css"
 import "./style.css"
 
-export const Footer = () => {
+export const FooterPage = () => {
     return (
         <main className={"footer__container"}>
             <p>2023 - Samir Dourado</p>
