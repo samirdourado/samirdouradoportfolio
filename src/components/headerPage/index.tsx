@@ -15,7 +15,7 @@ export const HeaderPage = () => {
                     <nav className="nav_buttons">
                     <Link href={"https://github.com/samirdourado"} target="_blank" ><BsGithub size={30} color="white"/></Link>
                     <Link href={"https://www.linkedin.com/in/samirdourado"} target="_blank" ><BsLinkedin size={30} color="white"/></Link>
-                    <Link href={"https://drive.google.com/file/d/1PzrCcMu7naGPgVWX-M433kA4qEx0aj8r/view?usp=sharing"} target="_blank" ><BsFillFilePdfFill size={30} color="white"/></Link>
+                    <Link href={"https://docs.google.com/document/d/1yV3sjDmXRtk77btFxoO6CJinEV2mVlSe7x_og5CqwZw/edit?usp=drive_link"} target="_blank" ><BsFillFilePdfFill size={30} color="white"/></Link>
                     </nav>
                 </div>
             </section>
