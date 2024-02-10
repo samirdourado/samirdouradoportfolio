@@ -19,7 +19,6 @@ export const HeaderPage = () => {
                     </nav>
                 </div>
             </section>
-            
         </main>
     )
 }
