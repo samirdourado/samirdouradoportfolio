@@ -10,12 +10,6 @@
   scroll-smooth;  
 }
 
-
-
-.arrow_down {
-  @apply absolute bottom-5 inset-x-auto;
-}
-
 :root {
   --foreground-rgb: 255, 243, 211;
   --background-start-rgb: 218, 165, 32;

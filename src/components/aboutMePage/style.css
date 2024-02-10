@@ -48,11 +48,19 @@
     items-center
 }
 
+.about__container__body > figure {
+    @apply    
+    mt-5
+}
+
 
 .about__container__body > section > p {
     @apply
     w-full
     max-w-[600px]
+    smart:text-center
+    tablet:text-center
+    desktop:text-left
     text-lg
     flex
     items-center
