@@ -1,11 +1,11 @@
 import "../../app/globals.css"
 import "./style.css"
 
-export const Fieldset = ({ id, type, label, placeholder, register }: any ) => {
+export const Fieldset = ({ id, type, label, placeholder, register, inputMode }: any ) => {
     return (
         <fieldset className={"fieldset__container"}>
             <label className={"fieldset__label"} htmlFor={id}>{label}</label>
-            <input className={"fieldset__input"} id={id} type={type} placeholder={placeholder} {...register} />            
+            <input className={"fieldset__input"} id={id} type={type} placeholder={placeholder} inputMode={inputMode} {...register} />            
         </fieldset>
     )
 }
