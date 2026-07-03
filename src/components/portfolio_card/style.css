@@ -36,7 +36,6 @@
     not-italic 
     font-bold 
     leading-[normal];
-    font-family: Lexend;
 }
 
 .portfolio__main > p {
@@ -49,7 +48,6 @@
     leading-[normal]    
     line-clamp-3
     text-ellipsis;
-    font-family: Lexend;
 }
 
 .portfolio__footer {
@@ -73,6 +71,5 @@
     font-normal 
     leading-[normal];
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    font-family: Lexend;
     
 }
