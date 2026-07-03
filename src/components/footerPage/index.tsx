@@ -6,7 +6,7 @@ import "./style.css"
 export const FooterPage = () => {
     return (
         <main className={"footer__container"}>
-            <p>2023 - Samir Dourado</p>
+            <p>2026 - Samir Dourado</p>
             <Link href={"#home"}><FaArrowCircleUp size={20} /></Link>
         </main>
     )
