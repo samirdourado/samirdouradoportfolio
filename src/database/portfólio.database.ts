@@ -2,7 +2,7 @@ export const portfolioData = [
 
     {
         id: 1,
-        image: "/images-portfolio/kenziehub.png",
+        image: "/images-portfolio/kenziehub.webp",
         title: "Kenzie Hub",
         description: 
             "Projeto front-end que me fez virar a chave para o react, este projeto conta com a funcionalidade de cadastro e login ambos com verificação de senhas e os campos do formulário. Na area do usuário é possível adicionar uma tecnologia o seu nível desta categoria, sendo possível editar ou apagar as informações.",
@@ -18,7 +18,7 @@ export const portfolioData = [
     },    
     {
         id: 2,
-        image: "/images-portfolio/hamburgueria2.png",
+        image: "/images-portfolio/hamburgueria2.webp",
         title: "Hamburgueria",
         description: 
             "Projeto front-end feito com react com sistema de totem de hamburgueria contendo cadastro e login,onde pode comprar lanches e bebidas, pesquisa por produto ou categoria, carrinho de compras com display de quantidade e cálculo automático de valores.",
@@ -34,7 +34,7 @@ export const portfolioData = [
     },    
     {
         id: 7,
-        image: "/images-portfolio/casaadesive.png",
+        image: "/images-portfolio/casaadesive.webp",
         title: "Casa Adesive",
         description: "Este projeto é o re-desenvolvimento do site da Casa Adesive, sim este é um projeto real. Este é um site institucional com um mini blog embutido.",
         details: [
@@ -47,7 +47,7 @@ export const portfolioData = [
     },    
     {
         id: 8,
-        image: "/images-portfolio/starwars.png",
+        image: "/images-portfolio/starwars.webp",
         title: "Star Wars",
         description: "Este foi um teste técnico que fiz para mostrar as habilidades em consumo de api. A api utilizada foi do Star Wars, era para listar os planetas e fazer com que seus dados fossem exibidos em tela. ",
         details: [

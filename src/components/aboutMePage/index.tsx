@@ -11,7 +11,7 @@ export const AboutMePage = () => {
             <section className={"about__container__body"}>
                 <figure>
                     <Image 
-                        src={ "/image-about.jpeg" }
+                        src={ "/image-about.webp" }
                         alt={ "Foto Samir Dourado" }
                         width={500}
                         height={500}
