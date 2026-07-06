@@ -7,15 +7,15 @@ export const HeaderPage = () => {
     return (
         <main className={"home_container"} id={"home"}>      
             <section className={"presentation"}>
-                <p className={"text_home_header"}>Olá, me chamo <span className="text-brand3">Samir Dourado</span>, sou</p>
+                <p className={"text_home_header"}>Olá, me chamo <span className="text-black">Samir Dourado</span>, sou</p>
                 <h2 className={"title_strong title_strong_variant"}>FULLSTACK</h2>
                 <h2 className={"title_strong"}>DEVELOPER</h2>        
                 <div className={"presentation_footer"}>
-                    <p className={"presentation_text_footer"}>tenho 38 anos, sou de São Paulo, role a página e saiba um pouco mais sobre mim.</p>
+                    <p className={"presentation_text_footer"}>tenho 40 anos, sou de São Paulo, role a página e saiba um pouco mais sobre mim.</p>
                     <nav className="nav_buttons">
                     <Link href={"https://github.com/samirdourado"} target="_blank" ><BsGithub size={30} color="white"/></Link>
                     <Link href={"https://www.linkedin.com/in/samirdourado"} target="_blank" ><BsLinkedin size={30} color="white"/></Link>
-                    <Link href={"https://drive.google.com/file/d/1ncOt5Otg7dTbe8S5bbOFWfwhpj5JF2KW/view?usp=drive_link"} target="_blank" ><BsFillFilePdfFill size={30} color="white"/></Link>
+                    <Link href={"https://drive.google.com/file/d/1sQw3VcfjjOjVzP8cgS9JKSkSQN7TlKIG/view?usp=drive_link"} target="_blank" ><BsFillFilePdfFill size={30} color="white"/></Link>
                     </nav>
                 </div>
             </section>

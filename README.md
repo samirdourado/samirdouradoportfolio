@@ -1,42 +1,274 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Portfólio - Samir Dourado
 
-## Getting Started
+Portfólio profissional desenvolvido para apresentar minha trajetória, habilidades técnicas, experiências e projetos desenvolvidos ao longo da minha carreira na área de tecnologia.
 
-First, run the development server:
+## 🌐 Demo
+
+Acesse a versão online:
+
+**https://samirdouradoportfolio-lemon.vercel.app/**
+
+---
+
+# 📋 Sobre o Projeto
+
+Este projeto foi desenvolvido utilizando **Next.js**, **React**, **TypeScript** e **Tailwind CSS**, com foco em:
+
+* Apresentação profissional
+* Responsividade
+* Alta performance
+* SEO
+* Formulário de contato
+* Interface moderna e intuitiva
+
+O objetivo é mostrar minhas informações, projetos, habilidades e formas de contato.
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+## Front-end
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* React Icons
+
+## Formulários e Validação
+
+* React Hook Form
+* Zod
+* Hookform Resolvers
+
+## Comunicação
+
+* EmailJS
+
+## Feedback Visual
+
+* React Toastify
+
+## Ferramentas de Desenvolvimento
+
+* ESLint
+* PostCSS
+* Autoprefixer
+* Dotenv
+
+---
+
+# 📦 Dependências Principais
+
+| Biblioteca          | Finalidade                       |
+| ------------------- | -------------------------------- |
+| next                | Framework React para produção    |
+| react               | Construção da interface          |
+| typescript          | Tipagem estática                 |
+| tailwindcss         | Estilização                      |
+| react-hook-form     | Gerenciamento de formulários     |
+| zod                 | Validação de dados               |
+| @hookform/resolvers | Integração React Hook Form + Zod |
+| @emailjs/browser    | Envio de e-mails sem backend     |
+| react-toastify      | Notificações toast               |
+| react-icons         | Biblioteca de ícones             |
+| dotenv              | Variáveis de ambiente            |
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+src/
+├── app/
+├── components/
+│   ├── aboutMePage
+│   ├── button
+│   ├── comunicationPage
+│   ├── contact
+│   ├── dividerPyramid
+│   ├── fieldset
+│   ├── footerPage
+│   ├── headerPage
+│   ├── portfolioPage
+│   ├── textarea
+│   └── Footer
+├── database/
+├── interfaces/
+├── schemas/
+├── services/
+├── types/
+└── utils/
+```
+
+---
+
+# ⚙️ Pré-requisitos
+
+Antes de iniciar, certifique-se de possuir:
+
+* Node.js 24.x
+* npm ou yarn
+
+Verifique a instalação:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+# 🚀 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd samirdouradoportfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+ou
+
+```bash
+yarn
+```
+
+---
+
+# 🔐 Variáveis de Ambiente
+
+Crie um arquivo:
+
+```bash
+.env.local
+```
+
+Exemplo:
+
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=seu_service_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=sua_public_key
+```
+
+Essas credenciais são utilizadas pelo EmailJS para o envio do formulário de contato.
+
+---
+
+# ▶️ Executando o Projeto
+
+Modo desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ou
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+A aplicação estará disponível em:
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🏗 Build para Produção
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Gerar build:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Executar build:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run start
+```
 
---------------------------------
+---
 
-Libs INstaladas:
-React-Icons
-npm i react-hook-form
-npm i @hookform/resolvers
-npm i zod
+# 🔍 Lint
+
+Executar análise de código:
+
+```bash
+npm run lint
+```
+
+---
+
+# 📱 Responsividade
+
+O projeto foi desenvolvido seguindo o conceito **Mobile First**, garantindo compatibilidade com:
+
+* Smartphones
+* Tablets
+* Notebooks
+* Monitores Desktop
+
+---
+
+# ✨ Funcionalidades
+
+* Apresentação profissional
+* Exibição de habilidades técnicas
+* Cards de projetos
+* Formulário de contato
+* Integração com EmailJS
+* Validação de formulários com Zod
+* Feedback visual com Toasts
+* Design responsivo
+* SEO básico
+* Regex
+
+---
+
+# 👨‍💻 Autor
+
+## Samir Dourado
+
+Desenvolvedor Full-Stack com foco em:
+
+* React
+* Next.js
+* TypeScript
+* JavaScript
+* HTML
+* CSS
+* Tailwind CSS
+* Node.js
+* Express.js
+* Nest.js
+* Solidity
+* Rust
+
+### Contato
+
+* LinkedIn: https://linkedin.com/in/samirdourado
+* GitHub: https://github.com/samirdourado
+* Portfólio: https://samirdouradoportfolio-lemon.vercel.app
+
+---
+
+# 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+Sinta-se à vontade para estudar, adaptar e utilizar como referência para seus próprios projetos.
