@@ -1,5 +1,3 @@
-import "./globals.css"
-import "./style.css"
 import { HeaderPage } from "@/components/headerPage"
 import { PyramidDivider } from "@/components/divider_pyramid"
 import { PortfolioPage } from "@/components/portfolioPage"
@@ -10,7 +8,7 @@ import { AboutMePage } from "@/components/aboutMePage"
 export default function Home() {
   return (
     <>
-      <HeaderPage/>      
+      <HeaderPage/>
       <PyramidDivider/>
       <AboutMePage/>
       <PortfolioPage/>

@@ -9,8 +9,6 @@ import { useState } from "react";
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { SiMinutemailer } from "react-icons/si";
-import "../../app/globals.css"
-import "./style.css"
 
 const formatPhone = (value: string) => {
   const digits = value.replace(/\D/g, "")
@@ -31,15 +29,17 @@ const formatPhone = (value: string) => {
   return `(${ddd}) ${rest.slice(0, 4)}-${rest.slice(4, 8)}`
 }
 
+const errorClass = "w-full text-xs text-alert1 pl-3"
+
 export const Contact = () => {
 
-    const [submiting, setSubmiting] = useState(false)    
+    const [submiting, setSubmiting] = useState(false)
 
     const { register, handleSubmit, reset, setValue, formState: { errors } } = useForm({
         mode: "onSubmit",
-        resolver: zodResolver(sendMailSchema),         
+        resolver: zodResolver(sendMailSchema),
     })
-    
+
     const submit = async (formData: any) => {
       try {
         setSubmiting(true)
@@ -51,12 +51,12 @@ export const Contact = () => {
         setSubmiting(false)
       }
     }
-    
+
     return (
-      <section className={"contact__container"}>            
-        <form className={"contact__wrapper"} noValidate onSubmit={handleSubmit(submit)}>
+      <section className="w-full mx-auto bg-whiteFixed flex flex-col justify-center items-center p-2">
+        <form className="w-full max-w-[400px] min-h-[474px] flex flex-col justify-around p-2 border-4 rounded-lg" noValidate onSubmit={handleSubmit(submit)}>
           <Fieldset id={"name"} type={"text"} label={"Nome:"} placeholder={"Informe seu nome"} register={register("name")}/>
-          {errors.name && typeof errors.name.message === "string" && (<p className={"fieldset__error"}>{errors.name.message}</p>)}
+          {errors.name && typeof errors.name.message === "string" && (<p className={errorClass}>{errors.name.message}</p>)}
 
           <Fieldset id={"phone"} type={"tel"} label={"Telefone:"} placeholder={"DDD + Número"} inputMode={"tel"} register={register("phone", {
             onChange: (event) => {
@@ -65,15 +65,20 @@ export const Contact = () => {
               setValue("phone", masked, { shouldValidate: true })
             }
           })}/>
-          {errors.phone && typeof errors.phone.message === "string" && (<p className={"fieldset__error"}>{errors.phone.message}</p>)}
-          
+          {errors.phone && typeof errors.phone.message === "string" && (<p className={errorClass}>{errors.phone.message}</p>)}
+
           <Fieldset id={"email"} type={"email"} label={"E-mail:"} placeholder={"Informe seu e-mail"} register={register("email")}/>
-          {errors.email && typeof errors.email.message === "string" && (<p className={"fieldset__error"}>{errors.email.message}</p>)}
+          {errors.email && typeof errors.email.message === "string" && (<p className={errorClass}>{errors.email.message}</p>)}
 
           <TextArea id={"text"} type={"text"} label={"Mensagem:"} placeholder={"Escreva sua mensagem"}  register={register("text")}/>
-          {errors.text && typeof errors.text.message === "string" && (<p className={"fieldset__error"}>{errors.text.message}</p>)}
+          {errors.text && typeof errors.text.message === "string" && (<p className={errorClass}>{errors.text.message}</p>)}
 
-          <button type="submit">{ submiting ? <><SiMinutemailer size={25}  />Enviando...</> : <><MdEmail size={25} />Enviar</> }</button>                
+          <button
+            className="w-full max-w-[400px] bg-brand3 flex justify-center items-center gap-3 p-3 border-0 rounded-lg mt-3"
+            type="submit"
+          >
+            {submiting ? <><SiMinutemailer size={25} />Enviando...</> : <><MdEmail size={25} />Enviar</>}
+          </button>
         </form>
       </section>
     )

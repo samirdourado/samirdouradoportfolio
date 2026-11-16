@@ -1,3 +1,4 @@
+import "./globals.css"
 import { Lexend } from "next/font/google"
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={lexend.className}>        
+      <body className={lexend.className}>
         {children}
         <ToastContainer
           position="top-right"
