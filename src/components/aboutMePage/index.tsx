@@ -3,9 +3,9 @@ import { aboutMe } from "@/database/aboutMe.database";
 
 export const AboutMePage = () => {
     return (
-        <main className="w-full h-full mx-auto bg-whiteFixed flex flex-col justify-center items-center pt-[140px] pb-[40px]">
+        <main className="w-full h-full mx-auto bg-whiteFixed flex flex-col justify-center items-center px-gutter xl:px-0 pt-[140px] pb-[40px]">
             <h1 id="about" className="text-6xl font-bold text-grey1">Sobre mim</h1>
-            <section className="w-full mx-auto px-3 flex flex-col items-center gap-4 xl:flex-row xl:justify-evenly">
+            <section className="w-full mx-auto flex flex-col items-center gap-4 xl:flex-row xl:justify-evenly">
                 <figure className="max-w-[600px] flex flex-col justify-center items-center mt-5">
                     <Image
                         src={"/image-about.webp"}
