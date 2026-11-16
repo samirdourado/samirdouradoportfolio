@@ -1,11 +1,8 @@
-import "../../app/globals.css"
-import "./style.css"
-
 export const PyramidDivider = () => {
     return (
-        <div className={"container"}>
-            <div className={"container__left"}></div>
-            <div className={"container__right"}></div>
+        <div className="w-full min-w-full h-8 flex mx-auto bg-brand1 relative">
+            <div className="bg-brand1 w-full h-20 skew-y-3"></div>
+            <div className="bg-brand1 w-full h-20 -skew-y-3"></div>
         </div>
     )
 }
