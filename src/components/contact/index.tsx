@@ -53,7 +53,7 @@ export const Contact = () => {
     }
 
     return (
-      <section className="w-full mx-auto bg-whiteFixed flex flex-col justify-center items-center p-2">
+      <section className="w-full mx-auto bg-whiteFixed flex flex-col justify-center items-center">
         <form className="w-full max-w-[400px] min-h-[474px] flex flex-col justify-around p-2 border-4 rounded-lg" noValidate onSubmit={handleSubmit(submit)}>
           <Fieldset id={"name"} type={"text"} label={"Nome:"} placeholder={"Informe seu nome"} register={register("name")}/>
           {errors.name && typeof errors.name.message === "string" && (<p className={errorClass}>{errors.name.message}</p>)}

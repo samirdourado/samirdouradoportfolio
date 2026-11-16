@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        gutter: '10px',
+      },
       colors: {
         brand1: '#DAA520',
         brand2: '#88860B',
