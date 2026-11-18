@@ -1,8 +1,8 @@
 export const aboutMe = [
-    "Olá, me chamo Samir, sou da zona sul de São Paulo.",
-    "Sou Desenvolvedor Fullstack e Designer UI/UX ",
-    "Trabalhei muitos anos como Designer Gráfico, hoje estou fazendo transição de carreira para a área de desenvolvimento.",
-    "",
-    "Tenho experiência em React.js, Next.js, JavaScript, TypeScript, consumo de APIs REST, Node.js, Python, Django, Redux, Styled Components, Sass, Tailwind, CSS, Html, Figma, Photoshop, Illustrator, Corel Draw. Possuo experiência em projetos com Metodologias Ágeis",
-    "Sou formado em Desenvolvimento Full Stack com 2.000 horas de conteúdo, atualmente estou cursando Ciências da Computação, e estudo inglês por conta própria.",
-]
+    "Sou Desenvolvedor Full Stack com 2 anos de experiência no desenvolvimento e evolução de aplicações web.",
+    "Atuo com React, Next.js, Vue.js, TypeScript, Node.js, PHP/Laravel e bancos de dados SQL, criando interfaces, APIs e integrações.",
+    "Tenho vivência com aplicações em produção, otimização de performance e uso de IA para agilizar o desenvolvimento e automatizar processos.",
+    "Atualmente, venho aprofundando meus conhecimentos em Web3, Solidity e Smart Contracts, participando de bootcamps e hackathons.",
+    "Sou proativo, colaborativo e movido pelo aprendizado contínuo. Busco novos desafios para contribuir com soluções de qualidade e crescer profissionalmente.",
+    "Fico à disposição para conversarmos!",
+];
