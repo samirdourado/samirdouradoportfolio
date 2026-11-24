@@ -32,6 +32,15 @@ module.exports = {
         sucess1: '#18794E',
       },
     },
+    keyframes: {
+      cardIn: {
+        from: { opacity: '0', transform: 'translateY(8px) scale(0.95)' },
+        to: { opacity: '1', transform: 'none' },
+      },
+    },
+    animation: {
+      'card-in': 'cardIn 300ms ease-out backwards',
+    },
   },
   plugins: [],
 }

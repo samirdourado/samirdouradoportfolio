@@ -6,7 +6,6 @@ import { geGitHubProfile } from "@/services/githubApi.service";
 
 export const Hero = async () => {
   const profile = await geGitHubProfile("samirdourado");
-  console.log("PRO", profile);
   if (!profile) return null;
   type iContactLinks = {
     label: string;
