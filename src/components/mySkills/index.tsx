@@ -14,8 +14,8 @@ export const MySkills = () => {
   );
 
   return (
-    <aside className="w-full h-full max-w-7xl flex flex-col gap-4 items-center px-gutter xl:px-0 pt-36 pb-10 m-auto">
-      <h2 className="text-6xl font-bold text-grey1 mb-4">Habilidades</h2>
+    <aside className="w-full h-full max-w-7xl flex flex-col gap-4 items-center px-gutter xl:px-0 pt-20 pb-20 m-auto">
+      <h2 className="text-4xl font-bold text-grey1 mb-4">Habilidades</h2>
       <div className="w-full flex flex-col gap-2 justify-center items-center">
         <div
           role="group"
@@ -31,7 +31,7 @@ export const MySkills = () => {
               className={`min-w-0 whitespace-nowrap rounded-full px-1 py-2 text-sm transition-colors duration-200 ${
                 active === categorie.id
                   ? "bg-brand1 text-whiteFixed"
-                  : "border border-grey1/20 text-grey1 hover:bg-brand1/30"
+                  : "border border-grey5 text-grey1 hover:bg-brand1/30"
               }`}
             >
               {categorie.label}
@@ -51,7 +51,7 @@ export const MySkills = () => {
               <article
                 key={skill.name}
                 style={{ animationDelay: `${i * 60}ms` }}
-                className="animate-card-in h-40 w-full flex flex-col items-center justify-center gap-3 rounded-xl border border-grey1/20 p-2 capitalize transition duration-300 hover:-translate-y-1 hover:shadow-lg motion-reduce:animate-none"
+                className="animate-card-in h-40 w-full flex flex-col items-center justify-center gap-3 rounded-xl border border-grey5 p-2 capitalize transition duration-300 hover:-translate-y-1 hover:shadow-lg motion-reduce:animate-none"
               >
                 <p>{skill.name}</p>
                 <Image

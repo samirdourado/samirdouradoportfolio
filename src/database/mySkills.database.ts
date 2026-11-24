@@ -205,7 +205,7 @@ export const skillsDatabase: Skill[] = [
         image: "/skill-images/sass.svg",
         alt: "Logotipo do sass",
         aria: "Logotipo do sass",
-        categories: ["backend"]
+        categories: ["frontend"]
     },
     {
         name: "django",
