@@ -22,7 +22,7 @@ const sendEmail = async (formData: SendEmail) => {
       .then(() => {          
           toast.success("Email enviado")
         }, (error) => {
-          console.log(error)
+          console.error(error)
           toast.error("Algo deu errado")
         }) 
 };

@@ -6,7 +6,6 @@ import { geGitHubProfile } from "@/services/githubApi.service";
 
 export const Hero = async () => {
   const profile = await geGitHubProfile("samirdourado");
-  console.log("PRO", profile);
   if (!profile) return null;
   type iContactLinks = {
     label: string;
@@ -42,7 +41,7 @@ export const Hero = async () => {
       id={"home"}
       className="w-full flex flex-col justify-center items-center bg-brand1"
     >
-      <section className="w-full max-w-4xl flex flex-col items-center gap-10 px-gutter md:flex-row md:justify-between md:items-center xl:px-0 pt-5">
+      <section className="w-full max-w-7xl flex flex-col items-center gap-10 px-gutter md:flex-row md:justify-between md:items-center xl:px-0 pt-5">
         <div className="flex flex-col items-center gap-7">
           <div className="flex flex-col items-center md:items-start">
             <p className="text-lg">Olá, me chamo</p>
